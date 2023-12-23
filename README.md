@@ -11,8 +11,12 @@ VisionBlendPyramids is an advanced Python project leveraging Gaussian and Laplac
 ## Input Images
 The blending process uses the following input images:
 
-- **Background Image:** Lionel Messi in action on the football field.
-- **Object Image:** Cristiano Ronaldo in his football attire.
+- **Background Image:** Lionel Messi's image used for blending:  
+![Lionel Messi](https://images5.alphacoders.com/521/521476.jpg)
+
+- **Object Image:** Cristiano Ronaldo's image used for blending:  
+![Cristiano Ronaldo](https://rare-gallery.com/thumbs/564855-cristiano-ronaldo.jpg)
+
 - **Mask Image:** A gradient mask used to control the blending of the two images.
 
 ## Results
@@ -70,4 +74,3 @@ mask = np.asarray(Image.open('path/to/mask.jpg').convert('RGB'))
 # Blending
 blended_image = blend_images(background, object, mask, level=3)
 ```
-
