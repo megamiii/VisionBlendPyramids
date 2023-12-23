@@ -19,19 +19,13 @@ The blending process uses the following input images:
 The project successfully blends two iconic football players, Messi and Ronaldo, into a single image. The Gaussian pyramid represents the images at decreasing resolutions, while the Laplacian pyramid captures the details necessary for blending. The final result is a composite image that naturally combines elements from both source images.
 
 ![Gaussian Pyramid](/results/vision_blend_pyramids/gaussian_pyramid.jpg)
-<p align="center">
-  <em>Figure 1: Gaussian Pyramid of Messi</em>
-</p>
+*Figure 1: Gaussian Pyramid of Messi*
 
 ![Laplacian Pyramid](/results/vision_blend_pyramids/laplacian_pyramid.jpg)
-<p align="center">
-  <em>Figure 2: Laplacian Pyramid of Messi</em>
-</p>
+*Figure 2: Laplacian Pyramid of Messi*
 
 ![Blended Image](/results/vision_blend_pyramids/blended.jpg)
-<p align="center">
-  <em>Figure 3: Blended Image of Messi and Ronaldo</em>
-</p>
+*Figure 3: Blended Image of Messi and Ronaldo*
 
 ## Utilities (`utils.py`)
 The utils.py module provides essential utility functions that are used throughout the image blending process:
