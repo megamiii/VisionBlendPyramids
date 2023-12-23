@@ -95,7 +95,7 @@ if __name__ == '__main__':
     ronaldo = np.asarray(Image.open(os.path.join('images', 'ronaldo.jpg')).convert('RGB'))
     mask = np.asarray(Image.open(os.path.join('images', 'mask.jpg')).convert('RGB'))
 
-    logdir = os.path.join('results', 'vision_blend_pyramids')
+    logdir = os.path.join('results', 'HW1_1')
     if not os.path.exists(logdir):
         os.makedirs(logdir)
 
